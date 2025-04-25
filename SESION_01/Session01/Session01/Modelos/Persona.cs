@@ -22,6 +22,11 @@ namespace Session01.Modelos
         /// </summary>
         public string Apellido { get; set; } = string.Empty;
 
+        /// <summary>
+        /// Direccion de la persona
+        /// </summary>
+        public string Direccion { get; set; } = string.Empty;
+
         public DateTime FechaNacimiento { get; set; } = DateTime.Now;
 
         public string NombreCompleto
