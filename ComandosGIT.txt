@@ -1,0 +1,26 @@
+git status ==> ver el estado actual de los cambios
+git add . ==> pon los archivos que fueron modificados (listos para un commit)
+git commit -m ==> Agrega un comentario (juntalos para que se registren en el historico 
+	de los cambios)
+
+/*******************************************************/
+git push origin nombreRama || git push origin main
+	subir los cambios al servidor
+
+git fetch --all ==> ve al servidor y mapea los cambios que han habido en el servidor
+
+git pull origin nombreRama ==> descarga los archivos de una rama en especifico
+
+git remote -v ==> la URL de nuestro repositorio
+/*******************************************************/
+origin es nombre o alias del repositorio donde estamos trabajando
+quiere decir, que podemos trabajar en distintos repositorios
+/*******************************************************/
+git log ==> listar todos los commits + los comentarios que se han agregado
+
+git cherry-pick ==> tomar los cambios de 1 o varios commit's en especifico, llevarlos a otra rama
+
+
+
+
+
