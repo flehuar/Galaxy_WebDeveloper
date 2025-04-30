@@ -29,6 +29,8 @@ namespace Session01.Modelos
 
         public DateTime FechaNacimiento { get; set; } = DateTime.Now;
 
+        public List<TelefonoPersona> ListaTelefonos { get; set; } = new List<TelefonoPersona>();
+
         public string NombreCompleto
         {
             get
@@ -61,6 +63,18 @@ namespace Session01.Modelos
         public int CalcularEdad()
         {
             return DateTime.Now.Year - FechaNacimiento.Year;
+        }
+
+        /// <summary>
+        /// Calcula la distancia recorrida en kilometros
+        /// </summary>
+        /// <param name="edad">Edad de la persona</param>
+        /// <param name="tiempo">Tiempo que caminara</param>
+        public void CaminarEnKilometros(int edad, int tiempo)
+        {
+
+            double distancia = edad * tiempo;
+
         }
 
     }
